@@ -61,7 +61,7 @@ def add_habit(habit_name, frequency, start_date):
     st.session_state.habit_tracker.append({"habit": habit_name, "frequency": frequency, "start_date": start_date, "completed": False})
 
 # Task form and sidebar
-st.title("📋 To-Do List for Students")
+st.title("📋 To-Do List App for Students")
 st.markdown("<style>body{background-color: #F9F9F9;}</style>", unsafe_allow_html=True)
 
 st.sidebar.title("📝 Add a New Task")
